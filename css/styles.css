@@ -36,7 +36,7 @@ h5 {
   opacity: 80%;
 }
 .card-body {
-  color: #bd4aaa;
+  color: #E9CEEE;
   font-style: oblique;
 }
 
@@ -62,10 +62,38 @@ img {
   opacity: .5;
 }
 
-/* .input-group-text {
-  opacity: .5;
+#philosophy-header {
+  color: #E3EECE;
+} 
+
+.btn {
+  color: #EECEE3;
 }
 
-.custom-select {
-  opacity: .5;
-} */
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+body {
+  padding: 2em; 
+}
