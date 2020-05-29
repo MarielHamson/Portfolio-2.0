@@ -1,6 +1,7 @@
 body {
   color: wheat;
   background-image: url(https://wallpaperplay.com/walls/full/4/e/0/67920.jpg);
+  cover: black;
 }
 
 h1 {
@@ -74,12 +75,18 @@ img {
   display: flex;  
   flex-flow: row wrap;
   font-weight: bold;
-  text-align: center;
+  text-align: right;
+  align-items: flex-start;
 }
 
 .wrapper > * {
   padding: 10px;
   flex: 1 100%;
+}
+
+.aside img {
+  height: auto;
+  max-width: 100%;
 }
 
 @media all and (min-width: 600px) {
@@ -96,4 +103,8 @@ img {
 
 body {
   padding: 2em; 
+}
+
+.modal-content {
+  background-color: #4e484f;
 }
