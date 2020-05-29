@@ -109,3 +109,10 @@ body {
 .modal-content {
   background-color: #4e484f;
 }
+
+.dropdown-menu {
+  opacity: .75;
+}
+.dropdown-menu a {
+  color: white;
+}
