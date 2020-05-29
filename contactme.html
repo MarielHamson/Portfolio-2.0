@@ -73,7 +73,7 @@
         <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Buttercup" required>
       </div>
       <div class="col-md-4 mb-3">
-        <label for="validationDefaultUsername">Username</label>
+        <label for="validationDefaultUsername">Instagram handle</label>
         <div class="input-group">
           <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroupPrepend2">@</span>
@@ -108,8 +108,16 @@
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
         <label class="form-check-label" for="invalidCheck2">
-          Want Mariel to reach out
-        </label>
+          Want Mariel to reach out?
+        </label> 
+        <br>
+        How should they reach out?
+        <select class="custom-select">
+          <option selected>Select One</option>
+          <option value="1">Instagram message</option>
+          <option value="2">Phone</option>
+          <option value="3">Carrier Pigeon to your home address</option>
+        </select>
       </div>
     </div>
     <button class="btn btn-primary" type="submit">Submit form</button>
