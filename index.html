@@ -21,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="https://marielhamson.github.io/Portfolio-2.0/work">Work <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -43,8 +43,28 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Find Something" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input class="form-control mr-sm-2" placeholder="Find Something" aria-label="Submit">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModalCenter">Search</button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          help
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
                 </form>
             </div>
         </nav>
@@ -61,36 +81,13 @@
 
 <div class="wrapper">
   <article class="main">
-    <p>Interests
-        <br>
-    <ul>
-        <li>Thai food</li>
-        <li>Bilbo (dog)</li>
-        <li>Hiking with friends</li>
-    </ul>
-</p>  
+    <p>What is she interested in? <br>
+    Thai food, Bilbo (dog), hiking with friends</p>  
   </article>
-  <aside class="aside aside-1">Identity
+  <aside class="aside aside-1">Who is she?
     <br>
-    <br>
-    <ul>
-    <li>Femme</li>
-    <li>Queer</li>
-    <li>Jewish</li>
-    <li>Feminist</li>
-    </ul>
-</aside>
-    <aside class="main">Life Experience
-    <br>
-    <br>
-    <ul>
-    <li>Master Collaborator</li>
-    <li>Tech Support Expert</li>
-    <li>Excellent Communication</li>
-    <li>Google-fu strong</li>
-    </ul>
-</aside>
-  <aside class="aside aside-2">
+    She's a human with a brain!</aside>
+  <aside class="aside aside-2">Here's a pic <br> 
     <img src="img/photo.jpg" alt="picture of Mars">
   </aside>
 </div>
