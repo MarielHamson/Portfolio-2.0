@@ -75,7 +75,7 @@ img {
   display: flex;  
   flex-flow: row wrap;
   font-weight: bold;
-  text-align: right;
+  text-align: left;
   align-items: flex-start;
 }
 
@@ -84,7 +84,7 @@ img {
   flex: 1 100%;
 }
 
-.aside img {
+.footer img {
   height: auto;
   max-width: 100%;
 }
