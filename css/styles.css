@@ -1,0 +1,59 @@
+body {
+  color: wheat;
+  background-image: url(https://wallpaperplay.com/walls/full/4/e/0/67920.jpg);
+}
+
+h1 {
+  text-align: center;
+  color: antiquewhite;
+}
+
+h2 {
+  text-align: right;
+  color: antiquewhite;
+}
+
+h3 {
+  text-align: center;
+}
+
+.big {
+  font-size: 36px;
+  color: antiquewhite;
+}
+.reachout {
+  border: 12px;
+  border-color: blueviolet;
+  color: antiquewhite;
+}
+
+.lead {
+  color: antiquewhite;
+}
+.jumbotron {
+  background: rgb(219, 149, 228);
+  background: linear-gradient(90deg, rgba(219, 149, 228, 1) 27%, rgba(123, 64, 167, 1) 100%);
+  opacity: 80%;
+}
+.card-body {
+  color: #bd4aaa;
+  font-style: oblique;
+}
+
+.card {
+  background-color: rgb(219, 149, 228,0);
+}
+
+.strong {
+  font-style: italic;
+}
+
+img {
+  height: 50%;
+  width: 55%;
+  float: right;
+  border: 20px;
+  border-color: teal;
+  margin: 10px;
+  padding: 15x;
+}
