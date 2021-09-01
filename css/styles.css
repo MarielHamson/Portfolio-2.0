@@ -1,117 +1,135 @@
 body {
-  color: wheat;
-  background-image: url(https://wallpaperplay.com/walls/full/4/e/0/67920.jpg);
-  cover: black;
+	color: black;
+	background-image: url(../img/background.jpeg);
+	cover: black;
 }
 
 h1 {
-  text-align: center;
-  color: antiquewhite;
+	text-align: center;
+	color: black;
 }
 
 h3 {
-  text-align: center;
+	text-align: center;
 }
 
 h5 {
-  text-align: center;
-  color: antiquewhite;
+	text-align: center;
+	color: antiquewhite;
 }
 
 .big {
-  font-size: 36px;
-  color: antiquewhite;
+	font-size: 36px;
+	color: antiquewhite;
 }
 .reachout {
-  border: 12px;
-  border-color: blueviolet;
-  color: antiquewhite;
+	border: 12px;
+	border-color: blueviolet;
+	color: antiquewhite;
 }
 
 .lead {
-  color: antiquewhite;
+	color: antiquewhite;
 }
 .jumbotron {
-  background: rgb(219, 149, 228);
-  background: linear-gradient(90deg, rgba(219, 149, 228, 1) 27%, rgba(123, 64, 167, 1) 100%);
-  opacity: 80%;
+	background: rgb(219, 149, 228);
+	background: linear-gradient(
+		90deg,
+		rgba(219, 149, 228, 1) 27%,
+		rgba(123, 64, 167, 1) 100%
+	);
+	opacity: 80%;
 }
 .card-body {
-  color: #E9CEEE;
-  font-style: oblique;
+	color: #e9ceee;
+	font-style: oblique;
 }
 
 .card {
-  background-color: rgb(219, 149, 228,0);
+	background-color: rgb(219, 149, 228, 0);
 }
 
 .strong {
-  font-style: italic;
+	font-style: italic;
 }
 
 img {
-  height: 50%;
-  width: 55%;
-  float: right;
-  border: 20px;
-  border-color: teal;
-  margin: 10px;
-  padding: 15x;
+	height: 50%;
+	width: 55%;
+	float: right;
+	border: 20px;
+	border-color: teal;
+	margin: 10px;
+	padding: 15x;
 }
 
-.form-control, .input-group-text, .custom-select{
-  opacity: .5;
+.form-control,
+.input-group-text,
+.custom-select {
+	opacity: 0.5;
 }
 
 #philosophy-header {
-  color: #E3EECE;
-} 
+	color: #e3eece;
+}
 
 .btn {
-  color: #EECEE3;
+	color: #eecee3;
 }
 
 .wrapper {
-  display: flex;  
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: left;
-  align-items: flex-start;
+	display: flex;
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: left;
+	align-items: flex-start;
 }
 
 .wrapper > * {
-  padding: 10px;
-  flex: 1 100%;
+	padding: 10px;
+	flex: 1 100%;
 }
 
 .footer img {
-  height: auto;
-  max-width: 100%;
+	height: auto;
+	max-width: 100%;
 }
 
 @media all and (min-width: 600px) {
-  .aside { flex: 1 0 0; }
+	.aside {
+		flex: 1 0 0;
+	}
 }
 
 @media all and (min-width: 800px) {
-  .main    { flex: 3 0px; }
-  .aside-1 { order: 1; } 
-  .main    { order: 2; }
-  .aside-2 { order: 3; }
-  .footer  { order: 4; }
+	.main {
+		flex: 3 0px;
+	}
+	.aside-1 {
+		order: 1;
+	}
+	.main {
+		order: 2;
+	}
+	.aside-2 {
+		order: 3;
+	}
+	.footer {
+		order: 4;
+	}
 }
 
 body {
-  padding: 2em; 
+	padding: 2em;
 }
 
 .modal-content {
-  background-color: #4e484f;
+	background-color: #4e484f;
 }
 
 .dropdown-menu {
-  opacity: .75;
+	opacity: 0.75;
 }
 .dropdown-menu a {
-  color: white;
+	color: white;
 }
